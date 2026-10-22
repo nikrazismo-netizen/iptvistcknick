@@ -1,0 +1,86 @@
+timestamp,blockName,blockType,startedAt,endedAt,durationMs,success,input,output,error,warning
+2026-10-21T23:18:04.936Z,Agent,agent,2026-10-21T23:18:04.844Z,2026-10-21T23:18:07.041Z,2196.7716270014644,true,"{
+  ""messages"": [
+    {
+      ""role"": ""user"",
+      ""content"": ""OLA""
+    }
+  ],
+  ""model"": ""claude-opus-5-5"",
+  ""promptCaching"": false,
+  ""tools"": [],
+  ""skills"": [],
+  ""memoryType"": ""none"",
+  ""temperature"": 0.3,
+  ""responseFormat"": null,
+  ""files"": null
+}","{
+  ""content"": ""Olá! 👋 Como posso ajudar você hoje?\n\n*(Hi! How can I help you today?)*"",
+  ""model"": ""claude-opus-5-5"",
+  ""tokens"": {
+    ""input"": 11,
+    ""output"": 115,
+    ""total"": 126,
+    ""cacheRead"": 0,
+    ""cacheWrite"": 0
+  },
+  ""toolCalls"": {
+    ""list"": [],
+    ""count"": 0
+  },
+  ""providerTiming"": {
+    ""startTime"": ""2026-10-21T23:18:04.861Z"",
+    ""endTime"": ""2026-10-21T23:18:07.040Z"",
+    ""duration"": 2179,
+    ""modelTime"": 2179,
+    ""toolsTime"": 0,
+    ""firstResponseTime"": 2179,
+    ""iterations"": 1,
+    ""timeSegments"": [
+      {
+        ""type"": ""model"",
+        ""name"": ""claude-opus-5-5"",
+        ""startTime"": 1792624684861,
+        ""endTime"": 1792624687040,
+        ""duration"": 2179,
+        ""assistantContent"": ""Olá! 👋 Como posso ajudar você hoje?\n\n*(Hi! How can I help you today?)*"",
+        ""finishReason"": ""end_turn"",
+        ""tokens"": {
+          ""input"": 11,
+          ""output"": 115,
+          ""total"": 126,
+          ""cacheRead"": 0,
+          ""cacheWrite"": 0
+        },
+        ""cost"": {
+          ""input"": 0.000044,
+          ""output"": 0.0023,
+          ""total"": 0.002344
+        },
+        ""provider"": ""anthropic""
+      }
+    ]
+  },
+  ""cost"": {
+    ""input"": 0.0000484,
+    ""output"": 0.00253,
+    ""total"": 0.0025784,
+    ""pricing"": {
+      ""input"": 4,
+      ""cachedInput"": 0.2,
+      ""output"": 20,
+      ""updatedAt"": ""2026-09-22""
+    }
+  }
+}",,
+2026-10-21T23:18:04.921Z,Start,start_trigger,2026-10-21T23:18:04.842Z,2026-10-21T23:18:04.844Z,1.6688060015439987,true,"{
+  ""inputFormat"": [
+    {
+      ""id"": ""3276f922-fb1b-4567-8f7b-ae60686c0e11"",
+      ""name"": """",
+      ""type"": ""string"",
+      ""value"": """"
+    }
+  ],
+  ""runMetadata"": false
+}",{},,
